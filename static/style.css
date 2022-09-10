@@ -1,0 +1,51 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('Millets.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.text-center {
+    text-align: center;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+/* input[type="file"] {
+    display: none;
+} */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#mainImage{
+    max-height: min(40vw,320px);
+    max-width: min(50vw,400px);
+    min-height: max(20vw,100px);
+    min-width: max(25vw,125px);
+}
+
+.pred{
+    font-size: min(4vw, 36px);
+}
+
+#header{
+    font-size:min(5vw,60px)
+}
+
+#topLeft{
+    font-size:min(3vw,24px)
+}
+
+#botLeft{
+    font-size:min(2vw,16px)
+}
